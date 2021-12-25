@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimansio-Fit</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/ico_logo.png"> <!-- tamaño 64x64 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- css fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <!-- css carousel cards de jquery-->
+    <link rel="stylesheet" href="css/owlcarousel2.css">
+    <!-- Aos CSS para animaciones de texto o cajas-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ---Inicio header--- -->
+    <header id="inicio">
+        <div class="container" id="arriba">
+            <div class="cabecera">
+                <h1 class="logo">
+                    logo
+                </h1>
+
+                <!-- #menu-h es icono ancla y target -->
+                <a class="icono-h" href="#menu-h">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <nav id="menu-h">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#actividades">Actividades</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Fin pantallas pequeñas -->
+
+            <!-- PANTALLA ESCRITORIO -->
+            <div class="cabecera-esc">
+                <h1 class="logo">
+                    logo
+                </h1>
+                <nav id="menu-esc">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#actividades">Actividades</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ---Fin header--- -->
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="grid-banner" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>HOLA, BIENVENIDO!</h1>
+                    <h2>Buscamos el bienestar y salud de nuestros clientes mediante la actividad física y hábitos
+                        saludables.
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="frase">
+            <div class="container">
+                <div class="parrafo">
+                    <p>El ejercicio cambia tu</p>
+                    <ul>
+                        <li>mente.</li>
+                        <li>actitud.</li>
+                        <li>humor.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="nosotros">
+            <div class="container">
+
+                <div class="img_nosotros">
+                    <img src="imagenes/img_nosotros.png" alt="foto del trainer" width="400" height="400">
+                </div>
+
+                <div class="texto_nosotros" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Sobre Nosotros</h1>
+                    <p>
+                        En Fit estamos comprometidos con un servicio de calidad y atención a nuestros usuarios.
+                        Integrado por un equipo de instructores profesionales, Fit brinda el ambientemás cómodo y
+                        agradable para que tu rutina de ejercicios se ajuste a tus necesidades. Nos aseguramos de que
+                        cuentes con una excelente atención desde que entras hasta que dejas la sucursal.
+                    </p>
+                    <div class="boton-asesor">
+                        <a href="https://wa.me/1136361422" target="_blank">Consulta con un asesor
+                            <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        </div>
+
+
+        <section id="items">
+            <div class="container">
+                <article class="item_uno">
+                    <div class="animacion" data-aos="fade-up" data-aos-duration="1000">
+                        <i class="fas fa-clock"></i>
+                        <h2>Progresión</h2>
+                        <p>Todos los alumnos llevan un registro del avance que tienen por mes para poder medir su
+                            progresión y facilitar el cumplimiento de sus metas.</p>
+                    </div>
+                </article>
+                <article class="item_dos">
+                    <div class="animacion" data-aos="fade-up" data-aos-duration="1000">
+                        <i class="fas fa-dumbbell"></i>
+                        <h2>Ejercicio</h2>
+                        <p>Rutinas mensuales adecuadas a cada persona, las cuales son explicadas y demostradas por
+                            entrenadores calificados
+                        </p>
+                    </div>
+                </article>
+                <article class="item_tres">
+                    <div class="animacion" data-aos="fade-up" data-aos-duration="1000">
+                        <i class="fas fa-drumstick-bite"></i>
+                        <h2>Nutrición</h2>
+                        <p>Orientación nutricional hecha por expertos para complementar la rutina y así obtener mejores
+                            resultados.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <section id="actividades">
+            <div class="container">
+                <h1 data-aos="fade-up" data-aos-duration="1000">
+                    destacadas
+                </h1>
+                <div class="wrapper">
+                    <div class="carousel owl-carousel">
+                        <article class="card_local">
+                            <div class="info">
+                                <h2>
+                                    Full Local
+                                </h2>
+                                <p>
+                                    Entrenarás con el peso de tu propio cuerpo y otros elementos para aumentar la fuerza
+                                    y
+                                    la resistencia de tus músculos.
+                                </p>
+                            </div>
+                            <figure class="local">
+                                <picture>
+                                    <source media="(min-width: 768rem)" srcset="imagenes/act-md1.jpg" width="134"
+                                        height="135">
+                                    <img src="imagenes/act-sm1.jpg" width="100" height="100" alt="Full Local"
+                                        title="actividades">
+                                </picture>
+                            </figure>
+                        </article>
+                        <article class="card_aerobico">
+                            <div class="info">
+                                <h2>
+                                    Aérobico
+                                </h2>
+                                <p>
+                                    Un circuito por los alrededores del gimnasio. Un monitor los acompañará para mostrar
+                                    el
+                                    recorrido en grupo.
+                                </p>
+                            </div>
+                            <figure class="aerobico">
+                                <picture>
+                                    <source media="(min-width: 768rem)" srcset="imagenes/act-md2.jpg" width="134"
+                                        height="135">
+                                    <img src="imagenes/act-sm2.jpg" width="100" height="100" alt="aerobico"
+                                        title="actividades">
+                                </picture>
+                            </figure>
+                        </article>
+                        <article class="card_abs">
+                            <div class="info">
+                                <h2>
+                                    Taller Abs
+                                </h2>
+                                <p>
+                                    Se trabajan los músculos más internos del cuerpo y este se moldea con el paso del
+                                    tiempo.
+                                </p>
+                            </div>
+                            <figure class="abs">
+                                <picture>
+                                    <source media="(min-width: 768rem)" srcset="imagenes/act-md3.jpg" width="134"
+                                        height="135">
+                                    <img src="imagenes/act-sm3.jpg" width="100" height="100" alt="taller abs"
+                                        title="actividades">
+                                </picture>
+                            </figure>
+                        </article>
+                        <article class="card_pump">
+                            <div class="info">
+                                <h2>
+                                    Body Pump
+                                </h2>
+                                <p>
+                                    Entrenamiento intenso de actividad aeróbica y muscular mediante el levantamiento de
+                                    pesas al ritmo de la música.
+                                </p>
+                            </div>
+                            <figure>
+                                <picture>
+                                    <source media="(min-width: 768rem)" srcset="imagenes/act-md4.jpg" width="134"
+                                        height="135">
+                                    <img src="imagenes/act-sm4.jpg" width="100" height="100" alt="Body Pump"
+                                        title="actividades">
+                                </picture>
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mision">
+            <div class="container">
+                <div class="mision_texto" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Nuestra Misión</h1>
+                    <p>
+                        Contribuir al desarrollo integral de los clientes mediante el diseño y la aplicación de un
+                        conjunto de servicios que fortalezcan la salud física y mental. Ayudar a nuestros socios a crear
+                        y mantener una excelente condición física a través de la nutrición y programas de entrenamiento.
+                    </p>
+                </div>
+
+                <div class="video">
+                    <iframe class="reel1" src="https://www.youtube.com/embed/oyGL591b_0Q" title="Trailer de video FIT"
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Inicio de la Galeria -->
+        <section id="galeria">
+            <div class="container">
+                <div class="galeria_text" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Galería</h1>
+                    <p>Fotos del Gimansio-Fit</p>
+                </div>
+                <figure>
+                    <picture>
+                        <a data-fancybox="imagenes" href="imagenes/img-lg1.jpg">
+                            <img src="imagenes/img-md1.jpg" width="711" height="1200" alt="Squat" class="img-fluid">
+                        </a>
+                    </picture>
+
+                    <picture>
+                        <a data-fancybox="imagenes" href="imagenes/img-lg2.jpg">
+                            <img src="imagenes/img-md2.jpg" width="700" height="200" alt="Cardio" class="img-fluid">
+                        </a>
+                    </picture>
+
+                    <picture>
+                        <a data-fancybox="imagenes" href="imagenes/img-lg3.jpg">
+                            <img src="imagenes/img-md3.jpg" width="700" height="300" alt="Flexiones" class="img-fluid">
+                        </a>
+                    </picture>
+
+                    <picture>
+                        <a data-fancybox="imagenes" href="imagenes/img-lg4.jpg">
+                            <img src="imagenes/img-md4.jpg" width="700" height="300" alt="PressBanca" class="img-fluid">
+                        </a>
+                    </picture>
+
+                    <picture>
+                        <a data-fancybox="imagenes" href="imagenes/img-lg5.jpg">
+                            <img src="imagenes/img-md5.jpg" width="800" height="1400" alt="Pesa Rusa" class="img-fluid">
+                        </a>
+                    </picture>
+                </figure>
+            </div>
+        </section>
+
+
+        <section class="formulario">
+            <div class="container">
+
+                <div id="contacto">
+                    <h1 data-aos="fade-up" data-aos-duration="1000">
+                        Contacto
+                    </h1>
+                    <a href="https://wa.me/1123456789" target="_blank">+54123456789</a>
+                    <a href="mailto:gymfit@fit.com.ar" target="_blank">gymfit@fit.com.ar</a>
+                    <p>
+                        Contenido exclusivo y ofertas directamente a su bandeja de entrada
+                    </p>
+                </div>
+
+                <form action="consulta.php" method="post" enctype="application/x-www-form-urlencoded">
+                    <fieldset>
+                        <div class="form">
+                            <label for="nombre">Nombre<span>*</span></label>
+                            <input type="text" id="nombre" placeholder="ingresa tu nombre" required>
+                        </div>
+                        <div class="form">
+                            <label for="apellido">Apellido<span>*</span></label>
+                            <input type="text" id="apellido" placeholder="ingresa tu apellido" required>
+                        </div>
+                        <div class="form">
+                            <label for="email">E-mail<span>*</span></label>
+                            <input type="email" id="email" placeholder="ingresa tu e-mail" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="form">
+                            <label for="mensaje">Consulta<span>*</span> </label>
+                            <textarea type="text" id="mensaje" cols="30" rows="5" maxlength="750"
+                                placeholder="Deja tu consulta o mensaje"></textarea>
+                        </div>
+                        <div class="form">
+                            <div class="boton">
+                                <button class="btn-submit" type="submit" value="enviar">Enviar</button>
+                                <button class="btn-reset" type="reset">Borrar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <h1 class="logo_footer">
+                    logo
+                </h1>
+
+                <div class="footer_datos">
+                    <p>Año 2021</p>
+                    <p>Diseño Multimedial 2 "A" T.T</p>
+                </div>
+                <div class="footer_general">
+                    <div class="footer_parrafo">
+                        <p>Desarrollado por Ronald Santamaría Pizarro</p>
+                        <p>En FitGym cuidamos tu salud, por eso te recordamos que tu apto médico es indispensable</p>
+                        <p>Copyright © 2021 FitGym Todos los derechos resevardos.</p>
+                    </div>
+                </div>
+                <div class="redes">
+                    <div class="facebooksocial">
+                        <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                            class="fab fa-facebook-f"></a>
+                        <h3 class="redes_text">Facebook</h3>
+                    </div>
+                    <div class="twittersocial">
+                        <a href="http://www.twitter.com/" target="_blank" rel="noopener noreferrer"
+                            class="fab fa-twitter"></a>
+                        <h3 class="redes_text">Twitter</h3>
+                    </div>
+                    <div class="twittersocial">
+                        <a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                            class="fab fa-instagram"></a>
+                        <ph3 class="redes_text">Instagram</ph3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Iconos (FontAwesome)-->
+    <script src="https://kit.fontawesome.com/40f3b3fe2b.js" crossorigin="anonymous"></script>
+
+    <!-- Iconos (Ionicons) -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Aos para animaciones de texto o cajas-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- jquery (lenjuaje basado en js) -->
+    <!-- Libreria Oficial de Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Jquery de fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- Jquery CDN carousel para cards-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $(".carousel").owlCarousel({
+                margin: 10,
+                loop: true,
+                autoplay: false,
+                autoplayTimeout: 2000, /* 2000 = 2s */
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: false
+                    },
+                }
+            });
+        })
+    </script>
+
+</body>
+
+</html>
