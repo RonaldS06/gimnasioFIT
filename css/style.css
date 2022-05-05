@@ -654,7 +654,7 @@ fieldset{
 }
 
 .footer_parrafo p:nth-child(1){
-    margin: 4rem 0 2rem;
+    margin: 0 0 2rem;
 }
 .footer_parrafo p:nth-child(2), .footer_parrafo p:nth-child(3){
     font-weight: 200;
@@ -868,8 +868,10 @@ fieldset{
     /* Inicio FOOTER */
 
     .footer_parrafo {
-        grid-column: 3/4;
-        grid-row: 1/3;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 2rem;
     }
     .redes {
         width: 14vw;
@@ -1062,5 +1064,7 @@ fieldset{
         transform: scale(1.2, 1.2);
         /* padding-left: 1.25rem; */
     }
+
+   
     
 }
